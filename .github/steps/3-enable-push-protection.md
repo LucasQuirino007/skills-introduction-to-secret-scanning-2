@@ -19,7 +19,7 @@ Quando alguém tenta enviar alterações de código para o GitHub (um push), o s
    - **Secret Protection:** `enabled`
    - **Push Protection:** `enabled`
 
-   <img width="400" alt="Configurações do secret protection" src="../images/push-protection-enabled-settings.png" />
+   <img width="400" alt="Configurações do secret protection" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/push-protection-enabled-settings.png?raw=true" />
 
 ### :keyboard: Atividade: Tentar enviar um segredo
 
@@ -31,7 +31,7 @@ Agora que o push protection está habilitado, vamos testá-lo!
 
 1. Acima da pré-visualização do conteúdo, clique no botão **Edit**.
 
-   <img width="200" alt="botão de edição" src="../images/edit-file-button.png"/>
+   <img width="200" alt="botão de edição" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/edit-file-button.png?raw=true"/>
 
 1. Copie o segredo inativo abaixo para o arquivo, removendo o texto `<REMOVE_ME>`. O resultado deve ficar parecido com a captura de tela abaixo.
 
@@ -39,11 +39,11 @@ Agora que o push protection está habilitado, vamos testá-lo!
      github-token: github_pat_<REMOVE_ME>11A4YXR6Y0v36CYFkuT5I1_ZRWX91c8k0waSN6x7AiVJ6zZ9ZHUQXBblBqFQpKd23V6CL7MWMPopnmBxzn
    ```
 
-   ![Captura de tela do arquivo credentials.yml sendo editado na interface web do GitHub. Um github-token recém-adicionado está destacado.](../images/credentials-yml-github-token-edit.png)
+   ![Captura de tela do arquivo credentials.yml sendo editado na interface web do GitHub. Um github-token recém-adicionado está destacado.](https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/credentials-yml-github-token-edit.png?raw=true)
 
 1. No canto superior direito, use o botão **Commit changes...** para **tentar** commitar diretamente na branch `main`. Em vez de commitar o arquivo atualizado, apareceu um alerta do push protection. Muito bom! 🥰
 
-   <img width="400" alt="diálogo de alerta do push protection" src="../images/push-protection-alert-dialog.png" />
+   <img width="400" alt="diálogo de alerta do push protection" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/push-protection-alert-dialog.png?raw=true" />
 
 > [!IMPORTANT]
 > O Secret Push Protection só analisa durante o _**push**_ para o GitHub. Ele não consegue verificar seus commits locais. Se você tiver um segredo em um commit local e ele estiver vários commits atrás, será preciso remover o segredo do histórico de commits da sua branch. Veja [resolving a blocked push on the command line](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/work-with-leak-prevention/working-with-push-protection-from-the-command-line).
@@ -54,7 +54,7 @@ Em alguns casos, você pode escrever código que se parece com um segredo e ter 
 
 1. Selecione a opção `It's used in tests`. Note que a descrição corresponde ao nosso caso de uso de aprendizado atual.
 
-   <img width="400" alt="diálogo de bypass do push protection" src="../images/push-protection-bypass-dialog.png" />
+   <img width="400" alt="diálogo de bypass do push protection" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/push-protection-bypass-dialog.png?raw=true" />
 
 1. Clique em **Allow secret**. Um banner de notificação informa que você já pode tentar commitar novamente.
 

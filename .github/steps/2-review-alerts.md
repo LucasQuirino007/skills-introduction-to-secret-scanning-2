@@ -10,11 +10,11 @@ No passo anterior, você habilitou o secret protection e commitou um arquivo sen
 
 1. Observe as diversas opções na barra superior que podem ajudar na triagem dos alertas.
 
-   <img width="400" alt="lista de alertas abertos filtrados" src="../images/secret-scanning-alerts-list.png" />
+   <img width="400" alt="lista de alertas abertos filtrados" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/secret-scanning-alerts-list.png?raw=true" />
 
 1. Clique no menu suspenso **Provider** e selecione `Amazon AWS` para filtrar a visualização. Note que agora apenas 2 das 3 entradas são listadas.
 
-   <img width="400" alt="lista de alertas abertos filtrados por AWS" src="../images/secret-scanning-alerts-filtered-aws.png" />
+   <img width="400" alt="lista de alertas abertos filtrados por AWS" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/secret-scanning-alerts-filtered-aws.png?raw=true" />
 
 ### :keyboard: Atividade: Revisar um alerta do secret scanning
 
@@ -22,11 +22,11 @@ No passo anterior, você habilitou o secret protection e commitou um arquivo sen
 
 1. No topo da página, é possível visualizar rapidamente o status do alerta, quando ele foi aberto, o segredo exposto e algumas etapas de remediação.
 
-   <img width="400" alt="seção superior dos detalhes do alerta" src="../images/alert-details-top-section.png" />
+   <img width="400" alt="seção superior dos detalhes do alerta" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/alert-details-top-section.png?raw=true" />
 
 1. Role um pouco para baixo até a área **Detected in X locations** e você verá todos os lugares onde esse segredo foi detectado, incluindo o arquivo `credentials.yml` que você criou. Note que o secret protection não cria alertas duplicados para o mesmo segredo encontrado em vários locais, como por exemplo na nossa issue de aprendizado.
 
-   <img width="400" alt="locais em que o alerta foi detectado" src="../images/alert-detected-locations.png" />
+   <img width="400" alt="locais em que o alerta foi detectado" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/alert-detected-locations.png?raw=true" />
 
 ### :keyboard: Atividade: Fechar um alerta
 
@@ -47,14 +47,14 @@ Quando o secret protection encontra um segredo no seu repositório, a primeira c
 
    > 💡 **Dica:** Isso é importante para que o log de auditoria possa fornecer informações críticas caso uma investigação seja necessária no futuro.
 
-   <img width="250" alt="Captura de tela de um alerta sendo fechado como revogado com um comentário útil" src="../images/alert-closed-as-revoked.png" />
+   <img width="250" alt="Captura de tela de um alerta sendo fechado como revogado com um comentário útil" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/alert-closed-as-revoked.png?raw=true" />
 
 
 1. O status do alerta agora exibe `Closed` e a trilha de auditoria inclui a nossa explicação.
 
-   <img width="250" alt="status do alerta fechado" src="../images/alert-status-closed.png" />
+   <img width="250" alt="status do alerta fechado" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/alert-status-closed.png?raw=true" />
 
-   <img width="450" alt="trilha de auditoria do alerta" src="../images/alert-audit-trail.png" />
+   <img width="450" alt="trilha de auditoria do alerta" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/alert-audit-trail.png?raw=true" />
 
 1. Com pelo menos um dos nossos alertas resolvido, vamos adicionar um comentário para informar à Mona que concluímos este passo, para que ela compartilhe o próximo.
 

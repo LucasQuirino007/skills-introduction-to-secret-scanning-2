@@ -36,7 +36,7 @@ O secret protection está disponível **gratuitamente para repositórios públic
    - **Secret Protection:** `enabled`
    - **Push Protection:** `disabled`
 
-   <img width="400" alt="Configurações do secret protection" src="../images/secret-protection-configuration-settings.png" />
+   <img width="400" alt="Configurações do secret protection" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/secret-protection-configuration-settings.png?raw=true" />
 
 ### :keyboard: Atividade: Commitar um arquivo sensível
 
@@ -46,11 +46,11 @@ Agora vamos (acidentalmente) commitar um arquivo sensível para ver como funcion
 
 1. Acima da lista de arquivos, clique no menu suspenso **Add file** e selecione **Create new file**.
 
-   <img width="350" alt="Botão de novo arquivo" src="../images/add-new-file-button.png"/>
+   <img width="350" alt="Botão de novo arquivo" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/add-new-file-button.png?raw=true"/>
 
 1. Informe o nome de arquivo `credentials.yml` e copie para dentro dele as credenciais de exemplo **inativas** abaixo.
 
-   <img width="400" alt="Criação do arquivo credentials.yml" src="../images/credentials-yml-file-creation.png"/>
+   <img width="400" alt="Criação do arquivo credentials.yml" src="https://github.com/LucasQuirino007/skills-introduction-to-secret-scanning-2/blob/main/.github/images/credentials-yml-file-creation.png?raw=true"/>
 
    ```yaml
    default:
